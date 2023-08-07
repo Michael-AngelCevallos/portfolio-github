@@ -41,10 +41,10 @@ blockquote, q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-}
+/*blockquote:before, blockquote:after, q:before, q:after {*/
+/*    content: '';*/
+/*    content: none;*/
+/*}*/
 
 table {
     border-collapse: collapse;
@@ -68,15 +68,15 @@ input::-moz-focus-inner {
 input, select, textarea {
     -moz-appearance: none;
     -webkit-appearance: none;
-    -ms-appearance: none;
+    /*-ms-appearance: none;*/
     appearance: none;
 }
 
 /* Basic */
 
-@-ms-viewport {
-    width: device-width;
-}
+/*@-ms-viewport {*/
+/*    width: device-width;*/
+/*}*/
 
 html {
     box-sizing: border-box;
